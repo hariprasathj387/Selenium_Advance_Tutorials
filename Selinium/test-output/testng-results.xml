@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-03T21:44:13 IST" name="Default suite" finished-at="2021-07-03T21:44:22 IST" duration-ms="9156">
+    <groups>
+    </groups>
+    <test started-at="2021-07-03T21:44:13 IST" name="Default test" finished-at="2021-07-03T21:44:22 IST" duration-ms="9156">
+      <class name="TestNG.testSetupTest">
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:TestNG.testSetupTest@5c30a9b0]" started-at="2021-07-03T21:43:47 IST" name="driverSetup" finished-at="2021-07-03T21:44:13 IST" duration-ms="25922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="webPageSetup()[pri:0, instance:TestNG.testSetupTest@5c30a9b0]" started-at="2021-07-03T21:44:13 IST" name="webPageSetup" finished-at="2021-07-03T21:44:20 IST" duration-ms="7365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webPageSetup -->
+        <test-method signature="imageClick()[pri:1, instance:TestNG.testSetupTest@5c30a9b0]" started-at="2021-07-03T21:44:20 IST" name="imageClick" finished-at="2021-07-03T21:44:22 IST" duration-ms="1688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imageClick -->
+        <test-method is-config="true" signature="driverClose()[pri:0, instance:TestNG.testSetupTest@5c30a9b0]" started-at="2021-07-03T21:44:22 IST" name="driverClose" finished-at="2021-07-03T21:44:23 IST" duration-ms="707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+      </class> <!-- TestNG.testSetupTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

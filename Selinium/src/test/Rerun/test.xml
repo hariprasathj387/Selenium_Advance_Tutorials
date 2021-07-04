@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="SuiteCase">
+<listeners>
+<listener class-name="test.Rerun.IAnnotationtransformersExample"></listener>
+</listeners>
+<test name="testCase">
+<classes>
+<class name="test.Rerun.RetryTestCases">
+</class>
+</classes>
+</test>
+</suite>

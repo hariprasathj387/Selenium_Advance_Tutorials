@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Result]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="newCase(failed)">
+    <classes>
+      <class name="TestNG.testSetupTest">
+        <methods>
+          <include name="imageClick"/>
+          <include name="webPageSetup"/>
+          <include name="driverSetup"/>
+        </methods>
+      </class> <!-- TestNG.testSetupTest -->
+    </classes>
+  </test> <!-- newCase(failed) -->
+</suite> <!-- Failed suite [Result] -->
